@@ -4,3 +4,5 @@
 [placerating-example](placerating-example.R)
 
 [Seatbelts-example](Seatbelts-example.R)
+
+[iris-example](iris-example.R)

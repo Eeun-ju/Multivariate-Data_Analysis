@@ -19,3 +19,5 @@ iris data 이용하여 logistic regression으로 추정 해보기
 
 
 
+### [sweat-example](sweat-example.R)
+행렬화를 이용하여 S(variance-covariance), eigenvalue, eigenvector 

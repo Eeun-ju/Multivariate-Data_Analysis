@@ -1,6 +1,6 @@
 # Multivariate-Data_Analysis
-2020 2학기 다변량자료분석 과제 및 ch정리  
-
+다변량자료분석 예제 정리 및 코드 정리  <h5> 데이터 원본 : http://www1.aucegypt.edu/faculty/hadi/RABE5/
+  
 ### [placerating-example](placerating-example.R)
 14개의 feature를 갖는 329개의 지역 데이터, PCA를 통해 차원 축소하기  
 기존 14개 feature 중 9개의 feature(CaseNum, Long, Lat, Pop, stNum 제외)를 이용하여 PCA 진행. 
@@ -30,4 +30,4 @@ iris data 이용하여 logistic regression으로 추정 해보기
 행렬화를 이용하여 S(variance-covariance), eigenvalue, eigenvector 
 
 
-<h5> 데이터 원본 : http://www1.aucegypt.edu/faculty/hadi/RABE5/
+

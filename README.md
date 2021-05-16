@@ -8,7 +8,7 @@
      place_pca = prcomp(x = log(dat[,1:9])) #PCA 수행을 위해 저장 및 plot 그리기
      screeplot(place_pca,npcs = 9,type = "lines")
 
-
+PC1을 기준으로 Arts, HlthCare이 비교적 중요한 변수라고 할 수 있고, PC2 입장에서는 HlthCare가 중요한 변수라고 말할 수 있다.
        
 ### [Seatbelts-example](Seatbelts-example.R)
 

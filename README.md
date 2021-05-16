@@ -2,7 +2,14 @@
 2020 2학기 다변량자료분석 과제 및 ch정리  
 
 ### [placerating-example](placerating-example.R)
+14개의 feature를 갖는 329개의 지역 데이터, PCA를 통해 차원 축소하기  
+기존 14개 feature 중 9개의 feature(CaseNum, Long, Lat, Pop, stNum 제외)를 이용하여 PCA 진행. 
+  
+     place_pca = prcomp(x = log(dat[,1:9])) #PCA 수행을 위해 저장 및 plot 그리기
+     screeplot(place_pca,npcs = 9,type = "lines")
 
+
+       
 ### [Seatbelts-example](Seatbelts-example.R)
 
 ### [iris-example](iris-example.R)
@@ -21,3 +28,6 @@ iris data 이용하여 logistic regression으로 추정 해보기
 
 ### [sweat-example](sweat-example.R)
 행렬화를 이용하여 S(variance-covariance), eigenvalue, eigenvector 
+
+
+<h5> 데이터 원본 : http://www1.aucegypt.edu/faculty/hadi/RABE5/
